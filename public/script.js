@@ -1,6 +1,6 @@
 const texts = [
-  "10+ years of Engineering Leadership",
-  "Reliability Architect",
+  "10+ years Engineering Leadership",
+  "SRE & Cloud Architect",
   "Ray & Machine Learning Enthusiast",
   "Philomath"
 ];
@@ -31,5 +31,6 @@ function typeEffect() {
     }
   }
 }
+
 
 typeEffect();
