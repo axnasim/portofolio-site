@@ -17,6 +17,7 @@ body {
 
 #typing {
   font-size: 2rem;
+  color: orange;
   border-right: 2px solid orange; /* Cursor effect */
   animation: blink 0.7s steps(1) infinite;
   white-space: nowrap;
@@ -45,4 +46,5 @@ body {
   to {
     stroke-dashoffset: 0;
   }
+
 }
