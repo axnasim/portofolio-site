@@ -18,8 +18,10 @@ body {
 #typing {
   font-size: 2rem;
   color: orange;
+  font-weight: bold;
   border-right: 2px solid orange; /* Cursor effect */
-  animation: blink 0.7s steps(1) infinite;
+  /*animation: blink 0.7s steps(1) infinite;*/
+  animation: blink 0.7s steps(1) infinite, textColor 3s infinite alternate;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -48,3 +50,4 @@ body {
   }
 
 }
+
